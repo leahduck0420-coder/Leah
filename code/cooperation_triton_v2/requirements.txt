@@ -1,0 +1,5 @@
+# Prefer the existing CUDA-matched server environment. Versions are API floors.
+torch>=2.5
+triton>=3.1
+numpy>=1.24
+matplotlib>=3.7
