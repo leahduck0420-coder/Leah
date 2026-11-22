@@ -1,0 +1,11 @@
+{
+  "triton": "3.9.0",
+  "revision": "b7ddcf86c095de79527ba3098503e73158bb94bd",
+  "sha256": {
+    "02-fused-softmax.py": "361e72779d5ea372b43399107ca212ac4405a25fc569b829b88653ccb61f1421",
+    "03-matrix-multiplication.py": "f88a9506694c58d483ad3cdb4aa672c23df0300803bcfaca13b9396184825008",
+    "05-layer-norm.py": "241f9f74e2f18567b26f3b4cf9b9873ae859150ccd10976d65d38fe24896d1d2",
+    "06-fused-attention.py": "36eb1f04b8ae795a554c69529e8c930edc5727a43322b39e87f916c535d7ba63",
+    "09-persistent-matmul.py": "43e51750a2271af05ed5fb7221c811b8d140b2a06665863eaff8799e474a7e03"
+  }
+}

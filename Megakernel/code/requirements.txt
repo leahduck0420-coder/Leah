@@ -1,0 +1,6 @@
+# Inventory only. The launcher never installs packages.
+triton==3.9.0
+numpy
+torch
+matplotlib
+# Optional for local official model shards: safetensors

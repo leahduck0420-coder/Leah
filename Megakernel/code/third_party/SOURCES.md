@@ -1,0 +1,5 @@
+# Sources
+
+The five Python tutorial files under triton_tutorials are unmodified blobs from the user's local Triton git objects, revision b7ddcf86c095de79527ba3098503e73158bb94bd (v3.9.0), upstream https://github.com/triton-lang/triton/tree/v3.9.0/python/tutorials . The corresponding upstream license is in LICENSES/Triton-MIT.txt. The runner loads selected definitions only and does not execute tutorial benchmark mains.
+
+stage_a/ownership.py is the project's existing seam_ll_package_v1.1/seam_harness/ownership/__init__.py. The handoff solver and lowering design are adapted from the project's learn_cuda_mlp_benchmark and seam_harness/megakernel. New workload-specific backends and a bounded no-wait worker protocol are identified in docs/archive_a/STRATEGY_INTEGRATION.md. No Liger, PyTorch, CUDA or model weights are bundled. The built-in Qwen file is a factual architectural subset of the official config (revision eaa56b5); model repository https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct .

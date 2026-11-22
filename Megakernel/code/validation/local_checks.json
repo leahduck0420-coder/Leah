@@ -1,0 +1,28 @@
+{
+  "target_triton": "3.9.0",
+  "upstream_commit": "b7ddcf86c095de79527ba3098503e73158bb94bd",
+  "server_gpu_execution": "SERVER_PENDING",
+  "previous_joint_package_sha256": "84913397a2a54dc88a4b5fce05086443e26cb953c6241a596499094192062bba",
+  "original_anchor_digest": "ff185cc1ce67dde6e369443dedb1731ab3a4a44f67cfe679876c0f8443da3f22",
+  "python_files": 54,
+  "shell_files": 8,
+  "invalid_venv_check": "PASS",
+  "core_language_operations_audited": 25,
+  "tutorials": "5 upstream files verified by SHA256 and definition-loaded on the host with Triton 3.9.0 and CPU stand-ins for GPU queries; no tutorial GPU execution",
+  "host_codegen": {
+    "platform": "Windows",
+    "compiler": "triton-windows 3.9.0.post30 (imported triton 3.9.0)",
+    "target": "CUDA sm120",
+    "stage_a_test_vectors": 35,
+    "stage_b_test_vectors": 62
+  },
+  "unit_tests": {
+    "discovered": 85,
+    "passed": 82,
+    "skipped": 3,
+    "skips": [
+      "one POSIX subprocess test",
+      "two GPU-evidence input tests"
+    ]
+  }
+}

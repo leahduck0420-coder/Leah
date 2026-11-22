@@ -1,0 +1,15 @@
+{
+  "python": "SEAM existing venv",
+  "cuda_toolkit": "SM120 capable (>=12.8); record actual nvcc release",
+  "nvcc": "detected at runtime",
+  "triton": "3.9.0",
+  "sm": 120,
+  "device_count_per_job": 1,
+  "torch": "detected at runtime",
+  "network": false,
+  "server_reference": {
+    "torch": "2.15.0+cu134",
+    "cuda_runtime": "13.4",
+    "venv": "/das/t01/homes/liqi/Leah/program_linear_layout/triton390-s0/.venv"
+  }
+}

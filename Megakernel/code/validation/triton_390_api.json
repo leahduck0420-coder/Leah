@@ -1,0 +1,41 @@
+{
+  "upstream_version": "3.9.0",
+  "apis": [
+    "arange",
+    "atomic_add",
+    "atomic_cas",
+    "atomic_xchg",
+    "broadcast_to",
+    "cdiv",
+    "debug_barrier",
+    "dot",
+    "erf",
+    "exp",
+    "full",
+    "gather",
+    "inline_asm_elementwise",
+    "load",
+    "max",
+    "maximum",
+    "num_programs",
+    "program_id",
+    "rsqrt",
+    "sigmoid",
+    "sqrt",
+    "static_range",
+    "store",
+    "sum",
+    "where"
+  ],
+  "issues": [],
+  "source_sha256": {
+    "core.py": "4f698c8b3bc25f6700558bf4be5324164f6a183357a881acd50308570ce190f6",
+    "math.py": "de55055960d843e714290e7bcddd9a2ce64957c46fb8f915dbe621096a3c6e19",
+    "standard.py": "9dc7303392f1744a56913ef6f5434b24ac87a6bdcd4087c2b300d7091a64b609",
+    "jit.py": "e734a56265cd052744d1a887782d618b0c41764741061b4c6f864c8368f4acda",
+    "compiler/compiler.py": "722152ea31dbdee7b10958c44403f163350674588c357613229230978956d3cf",
+    "testing.py": "587b5e6d6d1986e799277c7b84c0381093e52eab6b556183a678bc5c99f4d7d5",
+    "__init__.py": "43b9ae175947f975d27563dc832150a7d8e27632ab12379fffbacccb37ea4a36"
+  },
+  "graph_api": true
+}

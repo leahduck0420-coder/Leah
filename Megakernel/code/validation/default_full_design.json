@@ -1,0 +1,300 @@
+{
+  "scope": "CPU planning only, no GPU times",
+  "anchors": 400,
+  "requests": 2000,
+  "cells": [
+    {
+      "workload": "W1",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 16,
+        "INVALID_REJECTED": 1
+      }
+    },
+    {
+      "workload": "W1",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 16,
+        "INVALID_REJECTED": 1
+      }
+    },
+    {
+      "workload": "W1",
+      "strategy": "S3",
+      "statuses": {
+        "NOT_APPLICABLE": 17
+      }
+    },
+    {
+      "workload": "W1",
+      "strategy": "S4",
+      "statuses": {
+        "NOT_APPLICABLE": 17
+      }
+    },
+    {
+      "workload": "W1",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 17
+      }
+    },
+    {
+      "workload": "W2",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 49
+      }
+    },
+    {
+      "workload": "W2",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 48,
+        "NO_OP": 1
+      }
+    },
+    {
+      "workload": "W2",
+      "strategy": "S3",
+      "statuses": {
+        "NOT_APPLICABLE": 49
+      }
+    },
+    {
+      "workload": "W2",
+      "strategy": "S4",
+      "statuses": {
+        "STATIC_ADMITTED": 49
+      }
+    },
+    {
+      "workload": "W2",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 49
+      }
+    },
+    {
+      "workload": "W3",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 66
+      }
+    },
+    {
+      "workload": "W3",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 59,
+        "NO_OP": 7
+      }
+    },
+    {
+      "workload": "W3",
+      "strategy": "S3",
+      "statuses": {
+        "STATIC_ADMITTED": 66
+      }
+    },
+    {
+      "workload": "W3",
+      "strategy": "S4",
+      "statuses": {
+        "STATIC_ADMITTED": 61,
+        "NO_OP": 5
+      }
+    },
+    {
+      "workload": "W3",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 66
+      }
+    },
+    {
+      "workload": "W4",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 44
+      }
+    },
+    {
+      "workload": "W4",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 33,
+        "NO_OP": 11
+      }
+    },
+    {
+      "workload": "W4",
+      "strategy": "S3",
+      "statuses": {
+        "STATIC_ADMITTED": 44
+      }
+    },
+    {
+      "workload": "W4",
+      "strategy": "S4",
+      "statuses": {
+        "NOT_APPLICABLE": 9,
+        "STATIC_ADMITTED": 34,
+        "NO_OP": 1
+      }
+    },
+    {
+      "workload": "W4",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 44
+      }
+    },
+    {
+      "workload": "W5",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 43
+      }
+    },
+    {
+      "workload": "W5",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 43
+      }
+    },
+    {
+      "workload": "W5",
+      "strategy": "S3",
+      "statuses": {
+        "STATIC_ADMITTED": 43
+      }
+    },
+    {
+      "workload": "W5",
+      "strategy": "S4",
+      "statuses": {
+        "STATIC_ADMITTED": 41,
+        "NO_OP": 2
+      }
+    },
+    {
+      "workload": "W5",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 43
+      }
+    },
+    {
+      "workload": "W6",
+      "strategy": "S1",
+      "statuses": {
+        "NOT_APPLICABLE": 37
+      }
+    },
+    {
+      "workload": "W6",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 37
+      }
+    },
+    {
+      "workload": "W6",
+      "strategy": "S3",
+      "statuses": {
+        "NOT_APPLICABLE": 37
+      }
+    },
+    {
+      "workload": "W6",
+      "strategy": "S4",
+      "statuses": {
+        "NO_OP": 8,
+        "STATIC_ADMITTED": 29
+      }
+    },
+    {
+      "workload": "W6",
+      "strategy": "S5",
+      "statuses": {
+        "NO_OP": 1,
+        "STATIC_ADMITTED": 36
+      }
+    },
+    {
+      "workload": "W7",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 66
+      }
+    },
+    {
+      "workload": "W7",
+      "strategy": "S2",
+      "statuses": {
+        "NO_OP": 15,
+        "STATIC_ADMITTED": 51
+      }
+    },
+    {
+      "workload": "W7",
+      "strategy": "S3",
+      "statuses": {
+        "STATIC_ADMITTED": 66
+      }
+    },
+    {
+      "workload": "W7",
+      "strategy": "S4",
+      "statuses": {
+        "STATIC_ADMITTED": 66
+      }
+    },
+    {
+      "workload": "W7",
+      "strategy": "S5",
+      "statuses": {
+        "NOT_APPLICABLE": 66
+      }
+    },
+    {
+      "workload": "W8",
+      "strategy": "S1",
+      "statuses": {
+        "STATIC_ADMITTED": 78
+      }
+    },
+    {
+      "workload": "W8",
+      "strategy": "S2",
+      "statuses": {
+        "STATIC_ADMITTED": 78
+      }
+    },
+    {
+      "workload": "W8",
+      "strategy": "S3",
+      "statuses": {
+        "STATIC_ADMITTED": 78
+      }
+    },
+    {
+      "workload": "W8",
+      "strategy": "S4",
+      "statuses": {
+        "STATIC_ADMITTED": 54,
+        "NO_OP": 24
+      }
+    },
+    {
+      "workload": "W8",
+      "strategy": "S5",
+      "statuses": {
+        "STATIC_ADMITTED": 78
+      }
+    }
+  ]
+}

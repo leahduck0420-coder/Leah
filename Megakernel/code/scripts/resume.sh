@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+exec bash "$(dirname "$0")/../run_all.sh" --mode full --resume "$@"
